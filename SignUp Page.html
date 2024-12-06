@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>SignUp</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12  login-card mx-auto text-center p-5">
+    
+                <h1>Smart Login System</h1>
+    
+                <form action="" class="mt-3">
+
+                    <input type="text" placeholder="Enter your name" class="form-control bg-transparent" id="regestrationName">
+
+                    <div class="danger text-danger text-start d-none" id="nameValidaiton">
+                        <small>Min Length 3 and Max length 15 character And (lower case And upper case letters , numbers, -, _ ) ONLY ALLOWED</small>
+                    </div>
+
+            
+                    <input type="email" placeholder="Enter your email" class="form-control mt-3 bg-transparent" id="regestrationEmail">
+
+                    <div class="danger text-danger text-start d-none" id="emailValidation">
+                        <small>Enter Valid Email</small>
+                    </div>
+    
+                    <input type="password" placeholder="Enter your password" class="form-control mt-3 bg-transparent" id="regestrationPassword">
+
+                    <div class="danger text-danger text-start d-none" id="passwordValidation">
+                        <small>At least one upper case , At least one lower case , At least one special character or space And Min Length 8</small>
+                    </div>
+
+                    <div class="success text-success d-none mt-3" id="sucesssignup">
+                        <small>Sucess</small>
+                    </div>
+
+                    <div class="danger text-danger d-none mt-3" id="Allinputsrequired">
+                        <small>All inputs is required</small>
+                    </div>
+                
+
+    
+                    <button type="submit" class="form-control btn mt-4" id="signup">Sign Up</button>
+    
+                </form>
+    
+                <p class="mt-3 text-white">You have an account? <a href="index.html" class="text-white">Signin</a></p>
+    
+            </div>
+    
+        </div>
+    </div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signupscript.js"></script>
+    
+</body>
+</html>

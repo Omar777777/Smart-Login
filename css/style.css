@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--body-color);
+    font-family: sans-serif;
+}
+
+
+:root{
+    --body-color: rgb(36, 53, 63);
+    --h1-button-color: rgb(23, 162, 184);
+}
+
+
+.container{
+    width: 830px;
+}
+
+
+.login-card{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    h1{
+        color: var(--h1-button-color);
+        font-weight: 500;
+        font-style: 40px;
+        line-height: 48px;
+    }
+
+
+    .form-control{
+        color: white;
+    }
+    .form-control:focus {
+        color: white;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+    }
+
+    .form-control::placeholder {
+        color: white;
+        opacity: 0.6;
+    }
+
+    
+
+    button{
+        background-color: transparent;
+        color: var(--h1-button-color);
+        border-color: var(--h1-button-color);
+        transition: all 0.5s;
+
+        &:hover{
+            color: white;
+            background-color: var(--h1-button-color);
+        }
+    }
+
+p a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Welocme Page Style */
+
+.nav-style{
+box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#logout{
+    border-color: #ffc107;
+    color:  rgba(255, 255, 255, .5);
+    background-color: transparent;
+    
+   
+}
+
+
+.navbar-toggler:focus{
+    box-shadow: 0px 0px 0px 0.09rem white;
+    border:3px solid black;
+}
+.navbar-toggler{
+    border:1px solid rgba(255, 255, 255, 0.1);
+}
+.logo{
+   
+    color: white;
+    &:hover{
+        color: white;
+    }
+}
+
+.welcome-container{
+
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+   
+
+}
+
+
+
+
+
+
